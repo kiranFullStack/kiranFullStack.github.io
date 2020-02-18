@@ -1737,6 +1737,10 @@ input::-moz-focus-inner {
   top: 18px;
 }
 
+.icon-font {
+  font-size: 20px;
+}
+
 .header-menu-toggle:hover,
 .header-menu-toggle:focus {
   color: #ffffff;
