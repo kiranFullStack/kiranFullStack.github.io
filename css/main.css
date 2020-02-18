@@ -1696,6 +1696,9 @@ input::-moz-focus-inner {
 
 .header-main-nav .current a {
   color: #ffffff;
+  /* border-bottom: #ffffff95 2px solid; */
+  font-weight: 800;
+  font-size: 1.9rem;
 }
 
 .header-social {
@@ -1974,7 +1977,7 @@ input::-moz-focus-inner {
   /* font-family: "Roboto", sans-serif; */
   font-family: "Frank Ruhl Libre", serif;
 
-  font-size: 2.4rem;
+  font-size: 4rem;
   font-weight: 500;
   line-height: 1.333;
   color: #cf1767;
@@ -2092,7 +2095,7 @@ input::-moz-focus-inner {
   }
 
   .intro-text h3 {
-    font-size: 1.8rem;
+    font-size: 3rem;
   }
 
   .intro-text h1 {
