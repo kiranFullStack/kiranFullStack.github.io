@@ -2015,6 +2015,10 @@ input::-moz-focus-inner {
   background-color: #cf1767;
 }
 
+.intro-text h3 {
+  font-size: 3rem;
+}
+
 /* ------------------------------------------------------------------- 
  * responsive:
  * intro
@@ -2035,7 +2039,7 @@ input::-moz-focus-inner {
   }
 
   .intro-text h3 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .intro-text h1 {
