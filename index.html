@@ -1,6 +1,25 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
   <head>
+    <!--
+      -- ─── GOOGLE ANALYTICS ────────────────────────────────────────────
+      -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-87667421-2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag("js", new Date())
+
+      gtag("config", "UA-87667421-2")
+    </script>
+
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8" />
@@ -175,7 +194,7 @@
           <div class="item-service__content">
             <h4 class="item-title">Frontend Dev</h4>
             <p>
-              HTML, CSS, SCSS,<br />Javascript <br />
+              HTML, CSS, SASS,<br />Javascript <br />
               React, Redux.
             </p>
           </div>
@@ -186,7 +205,7 @@
             <p>
               Node, Express,<br />
               Passport JS, <br />
-              MongoDB, MySQL
+              MongoDB, MySQL & PostgreSQL.
             </p>
           </div>
         </div>
@@ -244,6 +263,8 @@
             <div class="timeline__header">
               <p class="timeline__timeframe">Nov 2019 - Present</p>
               <h3 class="item-title">McKinsey and Company</h3>
+              <div class="neobtn">.</div>
+
               <h5>Full Stack Developer</h5>
             </div>
             <div class="timeline__desc">
@@ -346,6 +367,7 @@
             <!-- Need a reliable developer? -->
             Too many cooks spoiling your broth?
           </h2>
+          <div class="neobtn-dark">.</div>
         </div>
       </div>
       <!-- end heading-block -->
