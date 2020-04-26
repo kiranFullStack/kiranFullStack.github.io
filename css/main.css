@@ -1639,7 +1639,7 @@ input::-moz-focus-inner {
 .header-logo img {
   width: 132px;
   height: 36px;
-  margin: 0;
+  margin: 0 0 17px 0;
 }
 
 /* -------------------------------------------------------------------
