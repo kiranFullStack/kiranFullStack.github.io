@@ -1,539 +1,599 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-  <head>
-    <!--
+    <head>
+        <!--
       -- ─── GOOGLE ANALYTICS ────────────────────────────────────────────
       -->
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-87667421-2"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || []
-      function gtag() {
-        dataLayer.push(arguments)
-      }
-      gtag('js', new Date())
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=UA-87667421-2"
+        ></script>
+        <script>
+            window.dataLayer = window.dataLayer || []
+            function gtag() {
+                dataLayer.push(arguments)
+            }
+            gtag('js', new Date())
 
-      gtag('config', 'UA-87667421-2')
-    </script>
+            gtag('config', 'UA-87667421-2')
+        </script>
 
-    <!--- basic page needs
+        <!--- basic page needs
     ================================================== -->
-    <meta charset="utf-8" />
-    <title>Kiran - FullStack Developer</title>
-    <meta name="description" content="" />
-    <meta name="author" content="" />
+        <meta charset="utf-8" />
+        <title>Kiran - FullStack MERN Developer</title>
+        <meta
+            name="description"
+            content="Full Stack Developer from Bangalore, who has 5 years of experience in MERN Stack"
+        />
+        <meta name="author" content="Kiran" />
+        <meta
+            name="keywords"
+            content="Fullstack Developer, React Developer, Frontend Developer, UI Developer, UI, UI Designer, UX, UX Designer, Node Developer, Backend Developer, MERN, MERN Stack, AWS, Docker, Frontend, Backend, Bangalore, Remote, Developer"
+        />
 
-    <!-- mobile specific metas
+        <!-- mobile specific metas
     ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- CSS
+        <!-- CSS
     ================================================== -->
-    <link rel="stylesheet" href="css/base.css" />
-    <link rel="stylesheet" href="css/vendor.css" />
-    <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/base.css" />
+        <link rel="stylesheet" href="css/vendor.css" />
+        <link rel="stylesheet" href="css/main.css" />
 
-    <!-- script
+        <!-- script
     ================================================== -->
-    <script src="js/modernizr.js"></script>
-    <script src="js/pace.min.js"></script>
+        <script src="js/modernizr.js"></script>
+        <script src="js/pace.min.js"></script>
 
-    <!-- favicons
+        <!-- favicons
     ================================================== -->
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
-    <link rel="manifest" href="site.webmanifest" />
-  </head>
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="favicon-16x16.png"
+        />
+        <link rel="manifest" href="site.webmanifest" />
+    </head>
 
-  <body id="top">
-    <div id="preloader">
-      <div id="loader"></div>
-    </div>
+    <body id="top">
+        <div id="preloader">
+            <div id="loader"></div>
+        </div>
 
-    <!-- site header
+        <!-- site header
     ================================================== -->
-    <header class="s-header">
-      <div class="header-logo">
-        <a href="#intro" class="site-logo smoothscroll">
-          <img src="images/logo.svg" alt="Homepage" />
-        </a>
-      </div>
+        <header class="s-header">
+            <div class="header-logo">
+                <a href="#intro" class="site-logo smoothscroll">
+                    <img src="images/logo.svg" alt="Homepage" />
+                </a>
+            </div>
 
-      <nav class="header-nav-wrap">
-        <ul class="header-main-nav">
-          <li class="current">
-            <a class="smoothscroll" href="#intro" title="intro">Intro</a>
-          </li>
-          <li>
-            <a class="smoothscroll" href="#skills" title="skills">Skills</a>
-          </li>
-          <li>
-            <a class="smoothscroll" href="#experience" title="experience"
-              >Experience</a
+            <nav class="header-nav-wrap">
+                <ul class="header-main-nav">
+                    <li class="current">
+                        <a class="smoothscroll" href="#intro" title="intro"
+                            >Intro</a
+                        >
+                    </li>
+                    <li>
+                        <a class="smoothscroll" href="#skills" title="skills"
+                            >Skills</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            class="smoothscroll"
+                            href="#experience"
+                            title="experience"
+                            >Experience</a
+                        >
+                    </li>
+                    <li>
+                        <a class="smoothscroll" href="#resume" title="resume"
+                            >Resume</a
+                        >
+                    </li>
+                    <li>
+                        <a class="smoothscroll" href="#contact" title="Call me"
+                            >Contact</a
+                        >
+                    </li>
+                </ul>
+
+                <ul class="header-social">
+                    <li>
+                        <a
+                            target="_blank"
+                            href="https://www.linkedin.com/in/kiranfullstack/"
+                            title="Message me on LinkedIn"
+                        >
+                            <i
+                                class="icon-font fab fa-linkedin-in"
+                                aria-hidden="true"
+                            ></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            target="_blank"
+                            href="https://github.com/kiranFullStack"
+                            title="Checkmy Projects on Github"
+                            ><i
+                                class="icon-font fab fa-github-alt"
+                                aria-hidden="true"
+                            ></i
+                        ></a>
+                    </li>
+                </ul>
+            </nav>
+
+            <a class="header-menu-toggle" href="#"><span>Menu</span></a>
+        </header>
+
+        <!-- end s-header -->
+
+        <!-- intro
+    ================================================== -->
+        <section id="intro" class="s-intro target-section">
+            <div class="row intro-content">
+                <div class="column large-9 mob-full intro-text">
+                    <h3>Hello, I'm <strong>Kiran</strong></h3>
+                    <h1>
+                        A Full Stack <br />
+                        Developer .<br />
+                    </h1>
+                </div>
+
+                <div class="intro-scroll">
+                    <a href="#skills" class="intro-scroll-link smoothscroll">
+                        Scroll Down
+                    </a>
+                </div>
+
+                <div class="intro-grid"></div>
+                <div class="intro-pic"></div>
+            </div>
+            <!-- end row -->
+        </section>
+        <!-- end intro -->
+
+        <!-- services
+    ================================================== -->
+        <section id="skills" class="s-services ss-dark target-section">
+            <div class="shadow-overlay"></div>
+
+            <div class="row heading-block heading-block--center">
+                <div class="column large-full">
+                    <h2 class="section-heading section-heading--centerbottom">
+                        Skills
+                    </h2>
+
+                    <p class="section-desc">
+                        I make high-class apps<br />
+                        with the MERN Stack. <br />
+                        React, React Native, Node, Express, MongoDB, GraphQL, UI
+                        UX Design, AWS and more.
+                    </p>
+                </div>
+            </div>
+            <!-- end heading-block -->
+
+            <div
+                class="row services-list block-large-1-3 block-medium-1-2 block-tab-full"
             >
-          </li>
-          <li>
-            <a class="smoothscroll" href="#resume" title="resume">Resume</a>
-          </li>
-          <li>
-            <a class="smoothscroll" href="#contact" title="Call me">Contact</a>
-          </li>
-        </ul>
+                <div class="column item-service">
+                    <div class="item-service__content">
+                        <h4 class="item-title">UI & UX Design</h4>
+                        <p>
+                            Design Thinking, Market Research,
+                            <br />
+                            User Research, User Flow,<br />
+                            Competitor Analysis, Visual Design. <br />
+                        </p>
+                    </div>
+                </div>
 
-        <ul class="header-social">
-          <li>
-            <a
-              target="_blank"
-              href="https://www.linkedin.com/in/kiranfullstack/"
-              title="Message me on LinkedIn"
-            >
-              <i class="icon-font fab fa-linkedin-in" aria-hidden="true"></i>
-            </a>
-          </li>
-          <li>
-            <a
-              target="_blank"
-              href="https://github.com/kiranFullStack"
-              title="Checkmy Projects on Github"
-              ><i class="icon-font fab fa-github-alt" aria-hidden="true"></i
-            ></a>
-          </li>
-        </ul>
-      </nav>
+                <div class="column item-service">
+                    <div class="item-service__content">
+                        <h4 class="item-title">Frontend Dev</h4>
+                        <p>
+                            HTML5, CSS3, SASS,<br />Javascript ES6,<br />
+                            React Hooks,React Native and Redux.
+                        </p>
+                    </div>
+                </div>
+                <div class="column item-service">
+                    <div class="item-service__content">
+                        <h4 class="item-title">Backend Dev</h4>
+                        <p>
+                            Node, Express,<br />
+                            Loopback, Mongoose,<br />
+                            MongoDB, MySQL & PostgreSQL.
+                        </p>
+                    </div>
+                </div>
 
-      <a class="header-menu-toggle" href="#"><span>Menu</span></a>
-    </header>
+                <div class="column item-service">
+                    <div class="item-service__content">
+                        <h4 class="item-title">Project Planning</h4>
+                        <p>
+                            Scrum framework, <br />
+                            Agile Project Management, <br />
+                            Client Interaction.
+                        </p>
+                    </div>
+                </div>
 
-    <!-- end s-header -->
+                <div class="column item-service">
+                    <div class="item-service__content">
+                        <h4 class="item-title">Testing</h4>
+                        <p>
+                            Test Driven Development. <br />
+                            Jest and Node testing. <br />
+                            Visual, Behavioral and Automated testing.
+                        </p>
+                    </div>
+                </div>
 
-    <!-- intro
+                <div class="column item-service">
+                    <div class="item-service__content">
+                        <h4 class="item-title">DevOps</h4>
+                        <p>
+                            AWS, Docker, Kubernetes, <br />
+                            CI-CD with automated testing pipeline,<br />
+                            Git, Github & Jira.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- end services-list -->
+        </section>
+        <!-- end s-services -->
+
+        <section
+            id="experience"
+            class="target-section"
+            style="background-color: #f6f6f6; padding-top: 10.2rem"
+        >
+            <div class="about-experience" id="works">
+                <div class="row heading-block">
+                    <div class="column large-full">
+                        <h2
+                            class="section-heading section-heading--centerbottom"
+                        >
+                            Experience
+                        </h2>
+                    </div>
+                </div>
+
+                <div class="spacing">
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">
+                                May 2020 - Present
+                            </p>
+                            <h3 class="item-title">Target Corp.</h3>
+                            <h5>Full Stack Developer</h5>
+                        </div>
+                        <div class="timeline__desc">
+                            <p>
+                                Making Retail contactless and taking it online
+                                during a global pandemic. Part of the highest
+                                earning year in retail history.<br />
+                                React, Redux, Node, Express, Loopback and
+                                MongoDB.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="spacing">
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">
+                                Nov 2019 - April 2020
+                            </p>
+                            <h3 class="item-title">McKinsey and Company</h3>
+
+                            <h5>Full Stack Developer</h5>
+                        </div>
+                        <div class="timeline__desc">
+                            <p>
+                                Built multiple Fin-Tech product suite for
+                                Citibank using a Data Science integrated web
+                                product to reduce loan defaulters
+                                <br />
+                                React, Redux, Node, Express, MongoDB, CircleCI,
+                                Docker, Kubernetes and AWS.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="spacing">
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">
+                                Jan 2019 - Aug 2019
+                            </p>
+                            <h3 class="item-title">PwC</h3>
+                            <h5>Full Stack Developer</h5>
+                        </div>
+                        <div class="timeline__desc">
+                            <p>
+                                Built PWC's internal web based Tax Auditing
+                                tools for CAs, Tax Auditors and Consultants<br />
+                                React, Redux, Node, Express, MondoDB and Adobe
+                                XD for UI UX design.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="spacing">
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">
+                                Oct 2018 - Dec 2018
+                            </p>
+                            <h3 class="item-title">GeekyAnts</h3>
+                            <h5>Software Developer</h5>
+                        </div>
+                        <div class="timeline__desc">
+                            <p>
+                                Built a Factory Inventory Management and ERP web
+                                tool for ABB's Chinese factory management.<br />
+                                React, React Native, NodeJS, Express, MongoDB.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="spacing">
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">
+                                April 2018 - Oct 2018
+                            </p>
+                            <h3 class="item-title">YogaOmega</h3>
+                            <h5>Full Stack Developer</h5>
+                        </div>
+                        <div class="timeline__desc">
+                            <p>
+                                Built a website and mobile app for yoga mat
+                                sales and to teach yoga to enthusiasts<br />
+                                HTML, CSS, SCSS, React and React Native
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="spacing">
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">
+                                July 2014 - April 2016
+                            </p>
+                            <h3 class="item-title">SAP</h3>
+                            <h5>Dev Ops Engineer</h5>
+                        </div>
+                        <div class="timeline__desc">
+                            <p>
+                                Managed SAP cloud infrastructure DevOps<br />
+                                Linux, CI CD, Testing pipelines, Deployment,
+                                Git, Docker and Kubernetes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA
     ================================================== -->
-    <section id="intro" class="s-intro target-section">
-      <div class="row intro-content">
-        <div class="column large-9 mob-full intro-text">
-          <h3>Hello, I'm <strong>Kiran</strong></h3>
-          <h1>
-            A Full Stack <br />
-            Developer .<br />
-          </h1>
-        </div>
-
-        <div class="intro-scroll">
-          <a href="#skills" class="intro-scroll-link smoothscroll">
-            Scroll Down
-          </a>
-        </div>
-
-        <div class="intro-grid"></div>
-        <div class="intro-pic"></div>
-      </div>
-      <!-- end row -->
-    </section>
-    <!-- end intro -->
-
-    <!-- services
-    ================================================== -->
-    <section id="skills" class="s-services ss-dark target-section">
-      <div class="shadow-overlay"></div>
-
-      <div class="row heading-block heading-block--center">
-        <div class="column large-full">
-          <h2 class="section-heading section-heading--centerbottom">Skills</h2>
-
-          <p class="section-desc">
-            I make high-class apps<br />
-            with the MERN Stack. <br />
-            React, React Native, Node, Express, MongoDB, GraphQL, UI UX Design,
-            AWS and more.
-          </p>
-        </div>
-      </div>
-      <!-- end heading-block -->
-
-      <div
-        class="row services-list block-large-1-3 block-medium-1-2 block-tab-full"
-      >
-        <div class="column item-service">
-          <div class="item-service__content">
-            <h4 class="item-title">UI & UX Design</h4>
-            <p>
-              Design Thinking, Market Research,
-              <br />
-              User Research, User Flow,<br />
-              Competitor Analysis, Visual Design. <br />
-            </p>
-          </div>
-        </div>
-
-        <div class="column item-service">
-          <div class="item-service__content">
-            <h4 class="item-title">Frontend Dev</h4>
-            <p>
-              HTML5, CSS3, SASS,<br />Javascript ES6,<br />
-              React Hooks,React Native and Redux.
-            </p>
-          </div>
-        </div>
-        <div class="column item-service">
-          <div class="item-service__content">
-            <h4 class="item-title">Backend Dev</h4>
-            <p>
-              Node, Express,<br />
-              Loopback, Mongoose,<br />
-              MongoDB, MySQL & PostgreSQL.
-            </p>
-          </div>
-        </div>
-
-        <div class="column item-service">
-          <div class="item-service__content">
-            <h4 class="item-title">Project Planning</h4>
-            <p>
-              Scrum framework, <br />
-              Agile Project Management, <br />
-              Client Interaction.
-            </p>
-          </div>
-        </div>
-
-        <div class="column item-service">
-          <div class="item-service__content">
-            <h4 class="item-title">Testing</h4>
-            <p>
-              Test Driven Development. <br />
-              Jest and Node testing. <br />
-              Visual, Behavioral and Automated testing.
-            </p>
-          </div>
-        </div>
-
-        <div class="column item-service">
-          <div class="item-service__content">
-            <h4 class="item-title">DevOps</h4>
-            <p>
-              AWS, Docker, Kubernetes, <br />
-              CI-CD with automated testing pipeline,<br />
-              Git, Github & Jira.
-            </p>
-          </div>
-        </div>
-      </div>
-      <!-- end services-list -->
-    </section>
-    <!-- end s-services -->
-
-    <section
-      id="experience"
-      class="target-section"
-      style="background-color: #f6f6f6; padding-top: 10.2rem"
-    >
-      <div class="about-experience" id="works">
-        <div class="row heading-block">
-          <div class="column large-full">
-            <h2 class="section-heading section-heading--centerbottom">
-              Experience
-            </h2>
-          </div>
-        </div>
-
-        <div class="spacing">
-          <div class="timeline__block">
-            <div class="timeline__bullet"></div>
-            <div class="timeline__header">
-              <p class="timeline__timeframe">May 2020 - Present</p>
-              <h3 class="item-title">Target Corp.</h3>
-              <h5>Full Stack Developer</h5>
+        <section
+            id="resume"
+            class="s-cta ss-dark target-section"
+            style="padding-top: 10.2rem"
+        >
+            <div class="row heading-block heading-block--center">
+                <div class="column large-full">
+                    <h2 class="section-desc">
+                        <!-- Need a reliable developer? -->
+                        Too many cooks spoiling your broth ?
+                    </h2>
+                </div>
             </div>
-            <div class="timeline__desc">
-              <p>
-                Making Retail contactless and taking it online during a global
-                pandemic. Part of the highest earning year in retail history.<br />
-                React, Redux, Node, Express, Loopback and MongoDB.
-              </p>
-            </div>
-          </div>
-        </div>
+            <!-- end heading-block -->
 
-        <div class="spacing">
-          <div class="timeline__block">
-            <div class="timeline__bullet"></div>
-            <div class="timeline__header">
-              <p class="timeline__timeframe">Nov 2019 - April 2020</p>
-              <h3 class="item-title">McKinsey and Company</h3>
+            <div class="row cta-content">
+                <div class="column large-full">
+                    <p>
+                        Why hire a UI UX Designer, Frontend developer, Backend
+                        developer, Testing engineer and Dev Ops engineer,<br />
+                        <strong> when you can just hire Me. </strong>
+                    </p>
 
-              <h5>Full Stack Developer</h5>
+                    <a
+                        href="./images/Kiran_FullStack.pdf"
+                        download="Kiran_FullStack"
+                        class="btn full-width"
+                        >Download Resume</a
+                    >
+                </div>
             </div>
-            <div class="timeline__desc">
-              <p>
-                Built multiple Fin-Tech product suite for Citibank using a Data
-                Science integrated web product to reduce loan defaulters
-                <br />
-                React, Redux, Node, Express, MongoDB, CircleCI, Docker,
-                Kubernetes and AWS.
-              </p>
-            </div>
-          </div>
-        </div>
+        </section>
+        <!-- end s-cta -->
 
-        <div class="spacing">
-          <div class="timeline__block">
-            <div class="timeline__bullet"></div>
-            <div class="timeline__header">
-              <p class="timeline__timeframe">Jan 2019 - Aug 2019</p>
-              <h3 class="item-title">PwC</h3>
-              <h5>Full Stack Developer</h5>
-            </div>
-            <div class="timeline__desc">
-              <p>
-                Built PWC's internal web based Tax Auditing tools for CAs, Tax
-                Auditors and Consultants<br />
-                React, Redux, Node, Express, MondoDB and Adobe XD for UI UX
-                design.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="spacing">
-          <div class="timeline__block">
-            <div class="timeline__bullet"></div>
-            <div class="timeline__header">
-              <p class="timeline__timeframe">Oct 2018 - Dec 2018</p>
-              <h3 class="item-title">GeekyAnts</h3>
-              <h5>Software Developer</h5>
-            </div>
-            <div class="timeline__desc">
-              <p>
-                Built a Factory Inventory Management and ERP web tool for ABB's
-                Chinese factory management.<br />
-                React, React Native, NodeJS, Express, MongoDB.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="spacing">
-          <div class="timeline__block">
-            <div class="timeline__bullet"></div>
-            <div class="timeline__header">
-              <p class="timeline__timeframe">April 2018 - Oct 2018</p>
-              <h3 class="item-title">YogaOmega</h3>
-              <h5>Full Stack Developer</h5>
-            </div>
-            <div class="timeline__desc">
-              <p>
-                Built a website and mobile app for yoga mat sales and to teach
-                yoga to enthusiasts<br />
-                HTML, CSS, SCSS, React and React Native
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="spacing">
-          <div class="timeline__block">
-            <div class="timeline__bullet"></div>
-            <div class="timeline__header">
-              <p class="timeline__timeframe">July 2014 - April 2016</p>
-              <h3 class="item-title">SAP</h3>
-              <h5>Dev Ops Engineer</h5>
-            </div>
-            <div class="timeline__desc">
-              <p>
-                Managed SAP cloud infrastructure DevOps<br />
-                Linux, CI CD, Testing pipelines, Deployment, Git, Docker and
-                Kubernetes.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- CTA
-    ================================================== -->
-    <section
-      id="resume"
-      class="s-cta ss-dark target-section"
-      style="padding-top: 10.2rem"
-    >
-      <div class="row heading-block heading-block--center">
-        <div class="column large-full">
-          <h2 class="section-desc">
-            <!-- Need a reliable developer? -->
-            Too many cooks spoiling your broth ?
-          </h2>
-        </div>
-      </div>
-      <!-- end heading-block -->
-
-      <div class="row cta-content">
-        <div class="column large-full">
-          <p>
-            Why hire a UI UX Designer, Frontend developer, Backend developer,
-            Testing engineer and Dev Ops engineer,<br />
-            <strong> when you can just hire Me. </strong>
-          </p>
-
-          <a
-            href="./images/Kiran_FullStack.pdf"
-            download="Kiran_FullStack"
-            class="btn full-width"
-            >Download Resume</a
-          >
-        </div>
-      </div>
-    </section>
-    <!-- end s-cta -->
-
-    <!--
+        <!--
       -- ─── GET IN TOUCH ────────────────────────────────────────────────
       -->
 
-    <section id="contact" class="s-contact ss-dark target-section">
-      <div class="row heading-block">
-        <div class="column large-full">
-          <h2 class="section-heading section-heading--centerbottom">
-            Get In Touch
-          </h2>
-        </div>
-      </div>
-
-      <div class="row contact-main">
-        <div class="column large-full">
-          <p class="section-desc">
-            Let's work together and build <br />
-            your awesome project.
-            <!-- <a href="mailto:kiran.fullstack@outlook.com">Email Me</a>. -->
-          </p>
-          <p class="section-desc">
-            <a href="mailto:kiran.fullstack@outlook.com"
-              >Email <i class="far fa-envelope"></i
-            ></a>
-            or
-            <a href="tel:8722978015">Call me <i class="fas fa-phone"></i></a>
-          </p>
-        </div>
-      </div>
-
-      <div class="row contact-infos" data-aos-anchor=".contact-main">
-        <div class="column large-5 medium-full contact-phone">
-          <p>
-            <a
-              style="border-bottom: 1px solid white"
-              href="tel:+918722978015"
-              class="num-email"
-            >
-              <i class="fas fa-phone"></i>
-              +91 87229-78015</a
-            >
-            <br />
-
-            <a
-              style="border-bottom: 1px solid white"
-              href="mailto:kiran.fullstack@outlook.com"
-              class="num-email"
-              ><i class="far fa-envelope"></i> kiran.fullstack@outlook.com</a
-            >
-          </p>
-        </div>
-      </div>
-      <!-- end contact-infos -->
-    </section>
-    <!-- end s-contact -->
-
-    <!-- footer
-    ================================================== -->
-    <footer>
-      <div class="row">
-        <div class="column large-full ss-copyright">
-          <span>© Copyright 2020</span>
-          <span style="color: white"
-            >Made on &nbsp;🌏 by
-            <a
-              style="text-decoration: underline"
-              target="_blank"
-              href="https://linkedin.com/in/kiranfullstack/"
-            >
-              Kiran</a
-            ></span
-          >
-        </div>
-
-        <div class="ss-go-top">
-          <a class="smoothscroll" title="Back to Top" href="#top"></a>
-        </div>
-      </div>
-    </footer>
-
-    <!-- photoswipe background
-    ================================================== -->
-    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
-      <div class="pswp__bg"></div>
-      <div class="pswp__scroll-wrap">
-        <div class="pswp__container">
-          <div class="pswp__item"></div>
-          <div class="pswp__item"></div>
-          <div class="pswp__item"></div>
-        </div>
-
-        <div class="pswp__ui pswp__ui--hidden">
-          <div class="pswp__top-bar">
-            <div class="pswp__counter"></div>
-            <button
-              class="pswp__button pswp__button--close"
-              title="Close (Esc)"
-            ></button>
-            <button
-              class="pswp__button pswp__button--share"
-              title="Share"
-            ></button>
-            <button
-              class="pswp__button pswp__button--fs"
-              title="Toggle fullscreen"
-            ></button>
-            <button
-              class="pswp__button pswp__button--zoom"
-              title="Zoom in/out"
-            ></button>
-            <div class="pswp__preloader">
-              <div class="pswp__preloader__icn">
-                <div class="pswp__preloader__cut">
-                  <div class="pswp__preloader__donut"></div>
+        <section id="contact" class="s-contact ss-dark target-section">
+            <div class="row heading-block">
+                <div class="column large-full">
+                    <h2 class="section-heading section-heading--centerbottom">
+                        Get In Touch
+                    </h2>
                 </div>
-              </div>
             </div>
-          </div>
-          <div
-            class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"
-          >
-            <div class="pswp__share-tooltip"></div>
-          </div>
-          <button
-            class="pswp__button pswp__button--arrow--left"
-            title="Previous (arrow left)"
-          ></button>
-          <button
-            class="pswp__button pswp__button--arrow--right"
-            title="Next (arrow right)"
-          ></button>
-          <div class="pswp__caption">
-            <div class="pswp__caption__center"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- end photoSwipe background -->
 
-    <!-- Java Script
+            <div class="row contact-main">
+                <div class="column large-full">
+                    <p class="section-desc">
+                        Let's work together and build <br />
+                        your awesome project.
+                        <!-- <a href="mailto:kiran.fullstack@outlook.com">Email Me</a>. -->
+                    </p>
+                    <p class="section-desc">
+                        <a href="mailto:kiran.fullstack@outlook.com"
+                            >Email <i class="far fa-envelope"></i
+                        ></a>
+                        or
+                        <a href="tel:8722978015"
+                            >Call me <i class="fas fa-phone"></i
+                        ></a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row contact-infos" data-aos-anchor=".contact-main">
+                <div class="column large-5 medium-full contact-phone">
+                    <p>
+                        <a
+                            style="border-bottom: 1px solid white"
+                            href="tel:+918722978015"
+                            class="num-email"
+                        >
+                            <i class="fas fa-phone"></i>
+                            +91 87229-78015</a
+                        >
+                        <br />
+
+                        <a
+                            style="border-bottom: 1px solid white"
+                            href="mailto:kiran.fullstack@outlook.com"
+                            class="num-email"
+                            ><i class="far fa-envelope"></i>
+                            kiran.fullstack@outlook.com</a
+                        >
+                    </p>
+                </div>
+            </div>
+            <!-- end contact-infos -->
+        </section>
+        <!-- end s-contact -->
+
+        <!-- footer
     ================================================== -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-  </body>
+        <footer>
+            <div class="row">
+                <div class="column large-full ss-copyright">
+                    <span>© Copyright 2020</span>
+                    <span style="color: white"
+                        >Made on &nbsp;🌏 by
+                        <a
+                            style="text-decoration: underline"
+                            target="_blank"
+                            href="https://linkedin.com/in/kiranfullstack/"
+                        >
+                            Kiran</a
+                        ></span
+                    >
+                </div>
+
+                <div class="ss-go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top"></a>
+                </div>
+            </div>
+        </footer>
+
+        <!-- photoswipe background
+    ================================================== -->
+        <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+            <div class="pswp__bg"></div>
+            <div class="pswp__scroll-wrap">
+                <div class="pswp__container">
+                    <div class="pswp__item"></div>
+                    <div class="pswp__item"></div>
+                    <div class="pswp__item"></div>
+                </div>
+
+                <div class="pswp__ui pswp__ui--hidden">
+                    <div class="pswp__top-bar">
+                        <div class="pswp__counter"></div>
+                        <button
+                            class="pswp__button pswp__button--close"
+                            title="Close (Esc)"
+                        ></button>
+                        <button
+                            class="pswp__button pswp__button--share"
+                            title="Share"
+                        ></button>
+                        <button
+                            class="pswp__button pswp__button--fs"
+                            title="Toggle fullscreen"
+                        ></button>
+                        <button
+                            class="pswp__button pswp__button--zoom"
+                            title="Zoom in/out"
+                        ></button>
+                        <div class="pswp__preloader">
+                            <div class="pswp__preloader__icn">
+                                <div class="pswp__preloader__cut">
+                                    <div class="pswp__preloader__donut"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"
+                    >
+                        <div class="pswp__share-tooltip"></div>
+                    </div>
+                    <button
+                        class="pswp__button pswp__button--arrow--left"
+                        title="Previous (arrow left)"
+                    ></button>
+                    <button
+                        class="pswp__button pswp__button--arrow--right"
+                        title="Next (arrow right)"
+                    ></button>
+                    <div class="pswp__caption">
+                        <div class="pswp__caption__center"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end photoSwipe background -->
+
+        <!-- Java Script
+    ================================================== -->
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
 </html>
