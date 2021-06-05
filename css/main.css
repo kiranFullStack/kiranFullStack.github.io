@@ -3361,6 +3361,6 @@ html[data-useragent*='rv:11.0'] .ss-go-top::after {
     bottom: 20px;
     right: 20px;
     z-index: 100;
-    width: 5rem;
-    height: 5rem;
+    width: 7rem;
+    height: 7rem;
 }
